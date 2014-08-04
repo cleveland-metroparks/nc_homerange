@@ -19,9 +19,9 @@ setwd("C:/Users/Dakota/Documents/GitHub/nc_homerange")
 coyote <- readOGR("nc_coyote_centroids_dn","nc_coyote_centroids_dn")
 
 #Make a kernel HR Estimation for day and night ----
-kernel <- kernelUD(coyote[,2], h="href")
+ud <- kernelUD(coyote[,2], h="href")
 #image(kernel)
-ver <- getverticeshr(kernel, 95)
+ver <- getverticeshr(ud, 95)
 
 # write out to a shape file ----
 writeOGR(ver, "hr_coyote_centroids_dn", "hr_centroids_dn", "ESRI Shapefile")
