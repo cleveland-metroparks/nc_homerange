@@ -10,7 +10,6 @@ rm(list=ls())
 #load packages
 require(adehabitatHR)
 require(rgdal)
-require(RAtmosphere)
 
 #set it the the directory containing the folders of the shape file for the centroids
 setwd("C:/Users/Dakota/Documents/GitHub/nc_homerange")

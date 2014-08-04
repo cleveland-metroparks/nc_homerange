@@ -9,3 +9,4 @@ This script utilizes the [adehabitatHR Package]( http://cran.r-project.org/web/p
 3. I extracted the home-range contour using a 95% estimation level (getverticeshr).
 4. I exported the polygons to a shapefile (hr_centroids_dn.shp)
 
+![](https://github.com/cleveland-metroparks/nc_homerange/blob/master/nc_coyote_homerange.png)
